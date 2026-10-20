@@ -17,8 +17,8 @@
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="author" content="Raquel Fátima">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
-  <script src="assets/main.js" defer></script>
+  <link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="assets/journey.css">
+  <script src="assets/main.js" defer></script><script src="assets/journey.js" defer></script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -218,7 +218,7 @@
 <body>
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
   <header class="header">
-    <a class="brand" href="index.html" aria-label="Raquel Fátima — início">RAQUEL<span>FÁTIMA<span class="brand-dot">.</span></span></a>
+    <a class="brand" href="index.html" aria-label="Raquel Fátima — início"><span class="logo-window"><img src="assets/raquel-fatima-logo.png" width="1254" height="1254" alt="Raquel Fátima — tráfego pago &amp; conteúdo" decoding="async"></span></a>
     <nav aria-label="Navegação principal"><a href="#solucoes">Serviços</a><a href="#sobre">Sobre</a><a href="#faq">Dúvidas</a><a class="nav-cta" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main id="conteudo">
@@ -230,15 +230,39 @@
         <div class="actions"><a class="button primary" href="#contato">Quero ajuda com meu negócio <span aria-hidden="true">↗</span></a><a class="text-link" href="#solucoes">Veja como posso ajudar <span aria-hidden="true">↓</span></a></div>
         <p class="hero-note">RAQUEL FÁTIMA <span aria-hidden="true">/</span> TRÁFEGO PAGO, SITES E AUTOMAÇÕES</p>
       </div>
-      <div class="connection-art" role="img" aria-label="Ilustração: anúncios divulgam o negócio, sites apresentam os serviços e ferramentas ajudam a organizar os contatos.">
-        <div class="art-grid" aria-hidden="true"></div><div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
-        <span class="art-label" aria-hidden="true">DO ANÚNCIO AO ATENDIMENTO</span>
-        <div class="node node-top" aria-hidden="true"><span class="node-icon">↗</span><div><small>01 / ATRAIR</small><strong>Divulgar seu negócio</strong></div><span class="node-check">✓</span></div>
-        <div class="art-center" aria-hidden="true"><span>rf.</span><small>SEU NEGÓCIO<br>NO CENTRO</small></div>
-        <div class="node node-middle" aria-hidden="true"><span class="node-icon">⌘</span><div><small>02 / APRESENTAR</small><strong>Mostrar seus serviços</strong></div></div>
-        <div class="node node-bottom" aria-hidden="true"><span class="node-icon">⇄</span><div><small>03 / ORGANIZAR</small><strong>Organizar os contatos</strong></div><span class="node-check">✓</span></div>
-        <span class="art-footer" aria-hidden="true">DIVULGAR. APRESENTAR. ATENDER.<span>↗</span></span>
-      </div>
+      <section class="journey" aria-label="Do anúncio ao atendimento: exemplo ilustrativo">
+        <div class="journey-top"><span class="journey-kicker">DO ANÚNCIO AO ATENDIMENTO</span><span class="logo-window journey-logo" aria-hidden="true"><img src="assets/raquel-fatima-logo.png" width="1254" height="1254" alt="" decoding="async"></span></div>
+        <div class="journey-stage">
+          <article class="journey-scene is-active" data-scene="0">
+            <p class="journey-number">01 / DIVULGAR</p><h2>Seu negócio<br>ganha visibilidade.</h2>
+            <div class="journey-card ad-card"><div class="card-heading"><span class="business-icon" aria-hidden="true">↗</span><div><strong>Seu negócio</strong><small>Patrocinado</small></div><span class="card-dots" aria-hidden="true">•••</span></div><div class="ad-art"><span>Seu serviço.<br><em>Em destaque.</em></span><i aria-hidden="true">↗</i></div><div class="mock-button">Saiba mais <span aria-hidden="true">↗</span></div><span class="journey-pointer" aria-hidden="true">↖</span></div>
+            <p class="journey-caption">Anúncios pagos no Instagram,<br>Facebook e Google.</p>
+          </article>
+          <article class="journey-scene" data-scene="1" hidden>
+            <p class="journey-number">02 / RECEBER CONTATOS</p><h2>O interesse vira<br>uma conversa.</h2>
+            <div class="journey-card chat-card"><div class="card-heading"><span class="business-icon" aria-hidden="true">↗</span><div><strong>Seu negócio</strong><small>Conversa no WhatsApp</small></div></div><div class="message incoming">Olá! Quero saber mais.<small>Agora</small></div><div class="message outgoing">Olá! Como posso ajudar?<span aria-hidden="true"> ✓✓</span></div><div class="contact-chip"><span aria-hidden="true">✓</span> Novo contato recebido</div></div>
+            <p class="journey-caption">Um caminho fácil para pedir<br>informações ou um orçamento.</p>
+          </article>
+          <article class="journey-scene" data-scene="2" hidden>
+            <p class="journey-number">03 / ORGANIZAR</p><h2>Cada contato<br>tem um próximo passo.</h2>
+            <div class="journey-card organize-card"><div class="card-heading"><strong>Seus atendimentos</strong><span class="card-dots" aria-hidden="true">•••</span></div><div class="pipeline"><span>Novo contato</span><span>Em atendimento</span><span class="selected">Agendado ✓</span></div><div class="appointment"><span class="appointment-icon" aria-hidden="true">✓</span><div><strong>Atendimento agendado</strong><small>Amanhã · 14h</small></div></div><div class="record-line"><span aria-hidden="true">≡</span> Conversa e informações reunidas</div></div>
+            <p class="journey-caption">Um sistema para acompanhar os clientes<br>e saber quem precisa de retorno.</p>
+          </article>
+          <article class="journey-scene" data-scene="3" hidden>
+            <p class="journey-number">04 / AUTOMATIZAR</p><h2>Menos tarefas<br>para fazer à mão.</h2>
+            <div class="journey-card automate-card"><div class="automation-trigger"><span aria-hidden="true">✓</span><strong>Horário agendado</strong></div><div class="automation-connector" aria-hidden="true"><i></i></div><div class="automation-result"><small>AUTOMAÇÃO CONFIGURADA</small><strong>Lembrete enviado <span aria-hidden="true">✓</span></strong><p>Seu atendimento é amanhã, às 14h.</p></div></div>
+            <p class="journey-caption">Lembretes automáticos ajudam<br>a cuidar da rotina do atendimento.</p>
+          </article>
+          <article class="journey-scene" data-scene="4" hidden>
+            <p class="journey-number">05 / CONVERTER</p><h2>Uma oportunidade.<br>Uma nova venda.</h2>
+            <div class="journey-card sale-card"><span class="sale-check" aria-hidden="true">✓</span><strong>Venda realizada</strong><p>Do primeiro clique<br>ao atendimento concluído.</p><div class="sale-path"><span>Anúncio</span><b aria-hidden="true">→</b><span>Contato</span><b aria-hidden="true">→</b><span>Venda</span></div></div>
+            <p class="journey-caption">Divulgação e atendimento trabalhando<br>juntos pelo seu negócio.</p>
+          </article>
+        </div>
+        <div class="journey-controls" hidden><div class="journey-steps" aria-label="Escolher etapa"><button type="button" data-step="0" aria-label="1. Divulgar" aria-pressed="true"><span></span></button><button type="button" data-step="1" aria-label="2. Receber contatos" aria-pressed="false"><span></span></button><button type="button" data-step="2" aria-label="3. Organizar" aria-pressed="false"><span></span></button><button type="button" data-step="3" aria-label="4. Automatizar" aria-pressed="false"><span></span></button><button type="button" data-step="4" aria-label="5. Converter" aria-pressed="false"><span></span></button></div><button class="journey-pause" type="button">Pausar</button></div>
+        <p class="journey-disclaimer">Exemplo ilustrativo. Os resultados variam.</p>
+      </section>
+
     </section>
     <div class="expertise" aria-label="Áreas de atuação"><div class="wrap"><span>SERVIÇOS PARA NEGÓCIOS LOCAIS</span><p>Tráfego pago <b>✳</b> Google Meu Negócio <b>✳</b> Sites & landing pages <b>✳</b> CRM & automações</p></div></div>
     <section class="section wrap" id="solucoes" aria-labelledby="solutions-title">
@@ -251,7 +275,7 @@
       </div>
     </section>
     <section class="about-section" id="sobre" aria-labelledby="about-title"><div class="wrap about">
-      <div class="signature-panel reveal"><span class="eyebrow">Seu negócio merece ser visto.</span><div class="monogram" aria-hidden="true">r<span>f</span>.</div><p>Do anúncio ao atendimento.<br><em>Para negócios reais.</em></p><a class="instagram-profile" href="https://www.instagram.com/raquelcfatima/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @raquelcfatima — abre em nova aba"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span>@raquelcfatima ↗</span></a></div>
+      <div class="signature-panel reveal"><span class="eyebrow">Seu negócio merece ser visto.</span><div class="signature-logo"><span class="logo-window"><img src="assets/raquel-fatima-logo.png" width="1254" height="1254" alt="Raquel Fátima — tráfego pago &amp; conteúdo" loading="lazy" decoding="async"></span></div><p>Do anúncio ao atendimento.<br><em>Para negócios reais.</em></p><a class="instagram-profile" href="https://www.instagram.com/raquelcfatima/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @raquelcfatima — abre em nova aba"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span>@raquelcfatima ↗</span></a></div>
       <div class="about-copy reveal"><p class="eyebrow">02 / Quem vai ajudar você</p><h2 id="about-title">Oi, eu sou<br>a <span class="serif">Raquel.</span></h2><p>Ajudo quem tem um negócio local a divulgar o que faz na internet e a organizar o contato com os clientes. Meu trabalho vai dos anúncios no Instagram, Facebook e Google à criação de sites e à organização do atendimento.</p><p>Primeiro, procuro entender o que você vende, quem quer alcançar e o que precisa melhorar. Uso esse conhecimento para indicar os serviços e as ferramentas que fazem sentido para o seu negócio, explicando cada escolha de forma simples.</p><div class="about-rule"><span>Você entende o que está contratando.</span><span>E como isso ajuda na sua rotina.</span></div></div>
     </div></section>
     <section class="section wrap process" id="processo" aria-labelledby="process-title"><div class="section-heading reveal"><p class="eyebrow">03 / Como funciona</p><h2 id="process-title">Vamos começar<br><span class="muted">pelo que você precisa.</span></h2></div><ol class="steps"><li class="reveal"><span>01</span><h3>Você conta sobre seu negócio</h3><p>Conversamos sobre o que você oferece, quem são seus clientes e onde precisa de ajuda.</p></li><li class="reveal"><span>02</span><h3>Combinamos o que será feito</h3><p>Definimos o serviço, as etapas, o prazo e o valor antes de começar.</p></li><li class="reveal"><span>03</span><h3>Colocamos em prática</h3><p>Preparo o que foi combinado, confiro o funcionamento e explico o que você precisa saber para usar no dia a dia.</p></li></ol></section>

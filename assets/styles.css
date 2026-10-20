@@ -16,3 +16,13 @@
 .service .service-explainer{font-size:15px;font-weight:600;color:var(--blue);line-height:1.5;margin:0 0 17px}.service ul{line-height:1.8}.service li{margin-bottom:10px}.service h3{margin-bottom:12px}
 
 .social-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}.social-links a{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:10px 15px;border:1px solid #8b9a81;border-radius:6px;font-size:13px;color:var(--paper)}.social-links a:hover{background:#ffffff12}.social-links svg,.instagram-profile svg{flex-shrink:0}.signature-panel .instagram-profile{display:inline-flex;align-items:center;gap:10px}.contact-section a:focus-visible{outline-color:#c2d5b1}
+
+/* Display the supplied original logo without its large surrounding margins. */
+.logo-window{display:block;position:relative;width:260px;aspect-ratio:3.75;overflow:hidden;mix-blend-mode:multiply}
+.logo-window img{position:absolute;display:block;width:139.333333%;max-width:none;height:auto;left:-20%;top:-212.5%}
+.header .brand{flex-shrink:0;letter-spacing:normal;line-height:normal}
+.signature-logo{position:relative;z-index:1;margin:50px 0 42px;mix-blend-mode:multiply}
+.signature-logo .logo-window{width:100%;max-width:380px}
+.journey .journey-logo{width:140px;flex-shrink:0}
+.journey .journey-top{flex-wrap:wrap;row-gap:12px}
+@media(max-width:760px){.header{flex-wrap:wrap;align-items:center;gap:16px}.header .logo-window{width:225px}.header nav{max-width:none;gap:15px;justify-content:flex-start}.signature-logo{margin:42px 0}.journey .journey-logo{width:125px}}
